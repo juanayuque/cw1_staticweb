@@ -1,0 +1,153 @@
+
+html,body{
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    margin:10px 0
+}
+h1{
+    font-size:24px;
+    letter-spacing: 6px
+}
+h2{
+    font-size:20px;
+    font-family:Arial;
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%; 
+    color:rgb(236, 3, 3)
+}
+h3{font-size:16px;
+    font-family:Arial;
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h4{
+    font-size:24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+h5{
+    font-size:12px;
+    text-align:center
+}
+h6{
+    font-size:16px
+}
+
+img {
+    border-radius: 5px;
+  }
+
+.logo {
+    text-align:center;
+    padding: 2%;
+}
+.center{
+    text-align:center;
+    padding:1%;
+    margin-top:1%;margin-bottom:1%;
+    opacity:100%;
+    }
+
+.xlarge{
+    font-size:36px
+}
+
+.padding-2{
+    padding-top:5%;
+    padding-bottom:1%;
+    text-align:center;
+}
+    
+.bar{
+    width:100%;overflow:hidden;
+    display:inline-block;width:auto;
+    text-align:center;
+}    
+
+.border{
+    border:1px solid #ccc
+}
+
+
+.box {
+    text-align: center;
+    background-color: #ececec;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+    padding-bottom:5%;
+    font-size: large;
+}
+
+.citation{
+    font-size:16x;
+    padding-left:15%;
+    padding-right:15%;
+    font-family: Arial;
+    text-align:justify;
+    font-style: normal;
+    }
+
+.images{
+          width: auto;
+          height: auto;    
+         border:2px dotted #ccc;
+        display: inline-block;
+        margin-top: 3%;
+        padding:1px;
+        text-align:center;
+            }
+ 
+.larry { 
+    width: auto;
+    height: auto;
+    float:right;
+    margin-right: 10%;
+    margin-left:10px;
+    }
+
+.alphabet { 
+    float:left;
+    clear:right;
+    border:#000000;
+    border-style: dotted;
+    margin-left: 10%;
+    margin-right:10px;
+}
+.eureka { 
+    float:right;
+    clear:right;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left:10px;
+    }
+
+.reference{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    text-justify:inter-word;
+    padding-left:10%;
+    padding-right:10%;
+    opacity:100%;
+    }
+
+/*Animation for website*/
+body {
+    animation: 1s ScrollUp;
+    }
+     
+    @keyframes ScrollUp {
+        0% {
+          transform: translateY(100%);
+        }
+        100% {
+          transform: translateY(0%);
+        }
+    }
